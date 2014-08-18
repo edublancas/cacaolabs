@@ -272,37 +272,40 @@
 			<div class="col-md-8 col-md-offset-2">
 
 				<h2>Contacto</h2>
-				
+
 				<!-- FORM -->
-				<form class="contact-form" id="contact" role="form" action="http://forms.brace.io/edu@cacaolabs.co">
-					
+				<form class="contact-form" id="contact" role="form">
 					<!-- IF MAIL SENT SUCCESSFULLY -->
 					<h4 class="success">
-						<i class="icon_check"></i> Your message has been sent successfully.
+						<i class="icon_check"></i> Tu mensaje ha sido enviado.
 					</h4>
 					
 					<!-- IF MAIL SENDING UNSUCCESSFULL -->
-					<h4 class="error">
-						<i class="icon_error-circle_alt"></i> Debes escribir un correo válido y un mensaje.
-					</h4>
+					<h4 class="error_name"><i class="icon_error-circle_alt"></i> Debes introducir tu nombre.</h4>
+					<h4 class="error_email"><i class="icon_error-circle_alt"></i> Debes escribir un correo válido.</h4>
+					<h4 class="error_message"><i class="icon_error-circle_alt"></i> Debes escribir un mensaje.</h4>
 
 					<div class="col-md-6">
 						<input class="form-control input-box" id="name" type="text" name="name" placeholder="Tu nombre">
 					</div>
-					
+
 					<div class="col-md-6">
-						<input class="form-control input-box" id="email" type="email" name="_replyto" placeholder="Tu correo">
+						<input class="form-control input-box" id="email" type="email" name="replyto" placeholder="Tu correo">
+					</div>
+
+					<div class="col-md-12">
+						<input class="form-control input-box" id="subject" type="text" name="subject" placeholder="Asunto">
 					</div>
 					
 					<div class="col-md-12">
 						<textarea class="form-control textarea-box" id="message" name="message" rows="8" placeholder="Mensaje"></textarea>
 					</div>
-					
-					<button class="btn btn-primary standard-button2 ladda-button" type="submit" id="submit" name="submit" data-style="expand-left" value="Send">Enviar mensaje</button>
+
+
+					<input class="btn btn-primary standard-button2 ladda-button" type="submit" id="submit" name="submit" data-style="expand-left" value="Enviar mensaje">
 					
 				</form>
-				<!-- /END FORM -->
-				
+				<!-- /END FORM -->				
 			</div>
 			
 		</div>

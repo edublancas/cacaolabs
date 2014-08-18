@@ -684,7 +684,9 @@ footer .contact-box .expanded-contact-form {
 }
 
 footer .contact-box .expanded-contact-form .success,
-footer .contact-box .expanded-contact-form .error {
+footer .contact-box .expanded-contact-form .error_message,
+footer .contact-box .expanded-contact-form .error_name,
+footer .contact-box .expanded-contact-form .error_email{
     display: none;
 }
 
